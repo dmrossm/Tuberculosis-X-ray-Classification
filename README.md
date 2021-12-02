@@ -23,12 +23,16 @@ with latent TB, would be extremely useful in active case reduction.
 - Researchers and doctors from Qatar University, the University of Dhakaalong and Hamad
 Medical Corporation amassed a database of chest X-rays (CXRs) of TB-positive and TB-negative cases,
 consisting of ~7000 images. The data is balanced and consists of 50% TB-positive and 50%
-TB-negative cases/X-rays.([Link to academic paper](https://ieeexplore.ieee.org/document/9224622)) The database can be accessed via [Kaggle](https://www.kaggle.com/tawsifurrahman/tuberculosis-tb-chest-xray-dataset).
-- Roughly 7,000 additional CXRs from patients with TB are available via the National Institutes of health. These are 
+TB-negative cases/X-rays.([Link to academic paper](https://ieeexplore.ieee.org/document/9224622)) The imaging data can be accessed via [Kaggle](https://www.kaggle.com/tawsifurrahman/tuberculosis-tb-chest-xray-dataset).
+- Roughly 7,000 additional CXRs from patients with TB are available via the National Institutes of health. These images cannot be shared with the public, but if you wish to ask for access, please contact
 
 ## Data Preparation
-I will prepare the data by first exploring (and visualizing) the distribution of image sizes. If the
-images are not of a standard size, I will standardize the size of all images. Next I will scale the
+I began by downloading all images and arranging them locally into training, testing and validation data, each representing 70%, 20% and 10% of the images respectively. I prepared the data by first exploring image sizes to assure standardized sizes. Next I scaled the
 red/green/blue contributions by dividing by 255 to scale each contribution to a range between -1
-and 1. Once I have completed EDA and data preparation, I will perform two test train splits in
-order to set aside a training set, a testing set and final validation set.
+and 1. Then I demonstratd the class imbalance with a bar plot. (I hope to eliminate this class imbalance once I wrangle the NIH data a bit more.
+
+## Modeling
+
+### Multi-Layer Perceptron
+My baseline model is a multilayer
+perceptron (MLP)...to be continued.
