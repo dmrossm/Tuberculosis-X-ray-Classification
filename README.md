@@ -24,7 +24,8 @@ with latent TB, would be extremely useful in active case reduction.
 Medical Corporation amassed a database of chest X-rays (CXRs) of TB-positive and TB-negative cases,
 consisting of ~7000 images. The data is balanced and consists of 50% TB-positive and 50%
 TB-negative cases/X-rays.([Link to academic paper](https://ieeexplore.ieee.org/document/9224622)) The imaging data can be accessed via [Kaggle](https://www.kaggle.com/tawsifurrahman/tuberculosis-tb-chest-xray-dataset).
-- Roughly 7,000 additional CXRs from patients with TB are available via the National Institutes of health. These images cannot be shared with the public, but if you wish to ask for access, please contact
+- Roughly 7,000 additional CXRs from patients with TB are available via the National Institutes of Health (NIH). These images cannot be shared with the public, but if you wish to ask for access, and sign a data usage agreement, please contact the NIH via this link: https://tbportals.niaid.nih.gov/download-data
+
 
 ## Data Preparation
 I began by downloading all images and arranging them locally into training, testing and validation data, each representing 70%, 20% and 10% of the images respectively. I prepared the data by first exploring image sizes to assure standardized sizes. Next I scaled the
