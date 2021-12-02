@@ -23,7 +23,7 @@ with latent TB, would be extremely useful in active case reduction.
 - Researchers and doctors from Qatar University, the University of Dhakaalong and Hamad
 Medical Corporation amassed a database of chest X-rays (CXRs) of TB-positive and TB-negative cases,
 consisting of ~7000 images. The data is balanced and consists of 50% TB-positive and 50%
-TB-negative cases/X-rays.(Paper Link)['https://ieeexplore.ieee.org/document/9224622'] The database can be accessed via Kaggle.
+TB-negative cases/X-rays.[Paper Link]('https://ieeexplore.ieee.org/document/9224622') The database can be accessed via Kaggle.
 - Roughly 7,000 additional CXRs from patients with TB are available via the National Institutes of health. These are 
 
 ## Data Preparation
