@@ -1,6 +1,6 @@
 # Tuberculosis-X-ray-Classification
 
-##Business Understanding
+## Business Understanding
 Tuberculosis (TB) is an infectious disease caused by the effect of Mycobacterium tuberculosis
 on the body, most specifically, the lungs. Roughly 25% of our global population is infected with
 Mycobacterium tuberculosis, most of whom have what is known as “latent tuberculosis.” This
