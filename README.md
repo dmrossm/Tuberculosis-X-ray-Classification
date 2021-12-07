@@ -28,7 +28,7 @@ TB-negative cases/X-rays.([Link to academic paper](https://ieeexplore.ieee.org/d
 
 
 ## Data Preparation
-I began by downloading all images and arranging them locally into training, testing and validation data, each representing 70%, 20% and 10% of the images respectively. I prepared the data by first exploring image sizes to assure standardized sizes. Next I scaled the
+I began by downloading all images and arranging them locally into training, validation and testing data, each representing 70%, 20% and 10% of the images respectively. I prepared the data by first exploring image sizes to assure standardized sizes. Next I scaled the
 red/green/blue contributions by dividing by 255 to scale each contribution to a range between -1
 and 1. Then I demonstratd the class imbalance with a bar plot. (I hope to eliminate this class imbalance once I wrangle the NIH data a bit more.
 
