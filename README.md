@@ -67,9 +67,9 @@ and 1. Then I demonstratd the class imbalance with a bar plot. (I hope to elimin
 ├── TB_Chest_Radiography_Database
 │       └── ...                        
 ├── .gitignore
-├── README.md                                  
-├── Tuberculosis-X-ray-Classification.ipynb     <- Narrative documentation of project in Jupyter notebook
-├── environment.yml                             <- file to be used to recreate environmental setup used while creating this project
-└── presentation.pdf                            <- PDF version of project presentation
+├── Final_Notebook.ipynb.ipynb                  <- documentation of project in Jupyter notebook with notation
+├── README.md                                   <- Summary of Project                                  
+├── Tuberculosis_Classification.pdf             <- PDF version of project presentation                            
+└── environment.yml                             <- file to be used to recreate environmental setup used while creating this project                           
 ``` 
 
