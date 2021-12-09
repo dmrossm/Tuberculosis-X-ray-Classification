@@ -37,3 +37,23 @@ and 1. Then I demonstratd the class imbalance with a bar plot. (I hope to elimin
 ### Multi-Layer Perceptron
 My baseline model is a multilayer
 perceptron (MLP)...to be continued.
+
+
+
+
+## Repository Structure
+
+```
+├── Images                                      <- Folder containing Chest X-rays: test, train and validation sets
+│   └── ...
+├── Notebooks                                   <- practice notebooks with model iterations not included in final nnotebook                  
+│      └── ...
+├── TB_Chest_Radiography_Database
+│       └── ...                        
+├── .gitignore
+├── README.md                                  
+├── Tuberculosis-X-ray-Classification.ipynb     <- Narrative documentation of project in Jupyter notebook
+├── environment.yml                             <- file to be used to recreate environmental setup used while creating this project
+└── presentation.pdf                            <- PDF version of project presentation
+``` 
+
