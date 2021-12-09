@@ -1,4 +1,5 @@
 # Tuberculosis-X-ray-Classification
+![Banner Image](https://github.com/dmrossm/Tuberculosis-X-ray-Classification/blob/main/Images/Opening%20Slide.jpg)
 
 ## Background
 Tuberculosis (TB) is an infectious disease caused by the effect of Mycobacterium tuberculosis
